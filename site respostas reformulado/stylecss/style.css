@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.background {
+    background-image: url(../imagens/fundoindex4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.text-uppercase {
+    letter-spacing: 0.08em
+}
+
+
+/* Body */
+
+ul{
+    list-style: none;
+
+}
+
+span{
+    color: red;
+}
+main > section > div > div > div > ul > li{
+    font-size: 20px;
+
+}
+.faixa{
+    font-size: 20px;
+    display: inline-flex;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+.li, .ulsize{
+
+    display: inline-flex;
+}
+
+
+
+
+img{
+    margin: auto; width: 100%; height: auto; margin-bottom: 30px;
+    
+}
+
+main{
+    width: 60%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.897);
+    box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.57);;
+    
+}
+
+
+
+main > section > div > div > div > h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.display-10{
+    font-size: 35px;
+    margin-top: -54;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.blog{
+    border-left: 2px outset #1C6EA4;
+    border-bottom: 2px inset #1C6EA4;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+/*FOOTER*/
+
+#myFooter {
+    background-color: #c6d8ff;
+    color: rgb(0, 0, 0);
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #72195a;
+}
+
+#myFooter a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:hover{
+    text-decoration: none;
+    background-color: #89aefd;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: #7fa6fa;
+    text-decoration: none;
+
+}
+.hoverbtn{
+    width: 180px; 
+    height: 40px; 
+    border-radius: 30px; 
+    font-size: 15px; 
+    margin-bottom: 20px; 
+    font-weight: 550; 
+    background-color: #a6c2fd; 
+    cursor: pointer;
+}
+
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    .nav-item:hover{
+        text-decoration: none;
+        background-color: #89aefd;
+        border-radius: 4px;
+    }
+}
+
+
+/* CSS utilizado para posicionar o rodapé no final da página. */
+/* Você pode remover isso. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+
+@media screen and (max-width: 991px){
+
+    main{
+        width: 95%;
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.837);
+        margin-bottom: 0px;
+    }
+
+    .nav-item:hover{
+        text-decoration: none;
+        background-color: #89aefd;
+        border-radius: 4px;
+    }
+
+}
+
